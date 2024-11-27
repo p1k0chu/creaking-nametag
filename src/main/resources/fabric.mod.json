@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "creaking-nametag",
+  "version": "${version}",
+  "name": "Creaking Nametag",
+  "icon": "assets/creaking-nametag/icon.png",
+  "description": "Make creaking nametag-able and name tagged creaking don't disappear",
+  "authors": [
+    "p1k0chu"
+  ],
+  "contact": {
+    "sources": "https://github.com/p1k0chu/creaking-nametag",
+    "issues": "https://github.com/p1k0chu/creaking-nametag/issues",
+    "homepage": "https://github.com/p1k0chu/creaking-nametag"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "creaking-nametag.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": ">=1.21.4-beta.3"
+  },
+  "accessWidener": "creaking-nametag.accessWidener"
+}

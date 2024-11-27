@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.p1k0chu.creaking_nametag.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CreakingEntityMixin",
+    "CreakingHeartBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
