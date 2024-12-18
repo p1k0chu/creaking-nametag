@@ -16,7 +16,8 @@ public class CreakingHeartBlockEntityMixin {
         Optional<CreakingEntity> optional = instance.getCreakingPuppet();
 
         if(optional.isPresent()) {
-            if(optional.get().isPersistent()) {
+            CreakingEntity puppet = optional.get();
+            if(puppet.isPersistent() && !puppet.isStuckWithPlayer()) {
                 return;
             }
         }
